@@ -11,4 +11,4 @@ class ResourceDTO:
 
 @dataclass(slots=True)
 class ProcessedResourceDTO(ResourceDTO):
-    averege_price: Decimal
+    average_price: Decimal

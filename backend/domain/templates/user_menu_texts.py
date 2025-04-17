@@ -9,13 +9,13 @@ def get_file_menu_text() -> str:
     return '📥 Upload your .xlsx file with resources data.'
 
 
-def processed_resource_text(title: str, url: str, xpath: str, averege_price: Decimal) -> str:
+def processed_resource_text(title: str, url: str, xpath: str, average_price: Decimal) -> str:
     return (
         '✅ Success processed resource\n\n'
         f'◉ Title: {title}\n'
         f'◉ URL: {url}\n'
         f'◉ XPath: <code>{xpath}</code>\n'
-        f'◉ Averege price: {averege_price}\n\n'
+        f'◉ Averege price: {average_price}\n\n'
     )
 
 

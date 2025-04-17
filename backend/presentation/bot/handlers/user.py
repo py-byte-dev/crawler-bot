@@ -80,7 +80,7 @@ async def process_user_file(
                     title=processed_resource.title,
                     url=processed_resource.url,
                     xpath=processed_resource.xpath,
-                    averege_price=processed_resource.averege_price,
+                    average_price=processed_resource.average_price,
                 ),
             )
             await asyncio.sleep(0.3)
